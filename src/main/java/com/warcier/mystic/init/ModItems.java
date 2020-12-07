@@ -1,8 +1,8 @@
-package com.warcier.overpower.init;
+package com.warcier.mystic.init;
 
-import com.warcier.overpower.Mystic;
-import com.warcier.overpower.util.enums.ModArmorMaterial;
-import com.warcier.overpower.util.enums.ModItemTier;
+import com.warcier.mystic.Mystic;
+import com.warcier.mystic.util.enums.ModArmorMaterial;
+import com.warcier.mystic.util.enums.ModItemTier;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
@@ -15,6 +15,19 @@ public class ModItems {
 
     // Items
     public static final RegistryObject<Item> MYSTIC_PEARL = ITEMS.register("mystic_pearl", () -> new Item(new Item.Properties().group(Mystic.TAB)));
+
+    public static final RegistryObject<Item> ENCHANTED_MYSTIC_PEARL = ITEMS.register("enchanted_mystic_pearl", () -> new Item(new Item.Properties().group(Mystic.TAB)));
+
+    public static final RegistryObject<Item> MIST = ITEMS.register("mist", () -> new Item(new Item.Properties().group(Mystic.TAB)));
+
+    public static final RegistryObject<Item> ROD = ITEMS.register("rod", () -> new Item(new Item.Properties().group(Mystic.TAB)));
+
+    // Block Items
+    public static final RegistryObject<Item> MIST_ORE= ITEMS.register("mist_ore",
+            () -> new BlockItem(ModBlock.MIST_ORE.get(), new Item.Properties().group(Mystic.TAB)));
+
+    public static final RegistryObject<Item> MIST_BLOCK= ITEMS.register("mist_block",
+            () -> new BlockItem(ModBlock.MIST_BLOCK.get(), new Item.Properties().group(Mystic.TAB)));
 
     //Tools
     public static final RegistryObject<AxeItem> MYSTICAL_AXE = ITEMS.register("mystical_axe",
@@ -31,6 +44,7 @@ public class ModItems {
 
     public static final RegistryObject<HoeItem> MYSTICAL_HOE = ITEMS.register("mystical_hoe",
             () -> new HoeItem(ModItemTier.MYSTIC_PEARL, -2, -2.0F, new Item.Properties().group(Mystic.TAB)));
+
     //Armor
     public static final RegistryObject<ArmorItem> MYSTICAL_HELMET = ITEMS.register("mystical_helmet",
             () -> new ArmorItem(ModArmorMaterial.MYSTIC_PEARL, EquipmentSlotType.HEAD, new Item.Properties().group(Mystic.TAB)));

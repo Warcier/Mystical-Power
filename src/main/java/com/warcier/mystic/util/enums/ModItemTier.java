@@ -1,6 +1,6 @@
-package com.warcier.overpower.util.enums;
+package com.warcier.mystic.util.enums;
 
-import com.warcier.overpower.init.ModItems;
+import com.warcier.mystic.init.ModItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 

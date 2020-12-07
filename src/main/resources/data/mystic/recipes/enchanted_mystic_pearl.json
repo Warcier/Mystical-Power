@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xbx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "mystic:mist"
+    },
+    "b":
+    {
+      "item": "mystic:mystic_pearl"
+    }
+  },
+  "result":
+  {
+    "item": "mystic:enchanted_mystic_pearl",
+    "count": 1
+  }
+}

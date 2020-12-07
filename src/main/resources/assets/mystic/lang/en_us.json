@@ -1,5 +1,8 @@
 {
+  "block.mystic.mystic_ore": "Mystic Ore",
+  "block.mystic.mystic_block": "Mystic Block",
   "item.mystic.mystic_pearl": "Mystic Pearl",
+  "item.mystic.enchanted_mystic_pearl": "Enchanted Mystic Pearl",
   "item.mystic.mystical_axe": "Mystical Axe",
   "item.mystic.mystical_pickaxe": "Mystical Axe",
   "item.mystic.mystical_shovel": "Mystical Shovel",
@@ -9,5 +12,7 @@
   "item.mystic.mystical_chestplate": "Mystical Chestplate",
   "item.mystic.mystical_leggings": "Mystical Leggings",
   "item.mystic.mystical_boots": "Mystical Boots",
+  "item.mystic.rod" : "Rod",
+  "item.mystic.mist" : "Mist",
   "itemGroup.MysticTab" : "Mystic Power"
 }
