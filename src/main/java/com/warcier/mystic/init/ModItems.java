@@ -23,10 +23,10 @@ public class ModItems {
     public static final RegistryObject<Item> ROD = ITEMS.register("rod", () -> new Item(new Item.Properties().group(Mystic.TAB)));
 
     // Block Items
-    public static final RegistryObject<Item> MIST_ORE= ITEMS.register("mist_ore",
+    public static final RegistryObject<BlockItem> MIST_ORE_ITEM= ITEMS.register("mist_ore",
             () -> new BlockItem(ModBlock.MIST_ORE.get(), new Item.Properties().group(Mystic.TAB)));
 
-    public static final RegistryObject<Item> MIST_BLOCK= ITEMS.register("mist_block",
+    public static final RegistryObject<Item> MIST_BLOCK_ITEM= ITEMS.register("mist_block",
             () -> new BlockItem(ModBlock.MIST_BLOCK.get(), new Item.Properties().group(Mystic.TAB)));
 
     //Tools

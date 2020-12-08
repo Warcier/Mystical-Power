@@ -14,6 +14,7 @@ public class ModBlock {
 
     // Blocks
     public static final RegistryObject<Block> MIST_ORE = BLOCKS.register("mist_ore", MistOre::new);
+
     public static final RegistryObject<Block> MIST_BLOCK = BLOCKS.register("mist_block", MistBlock::new);
 
 }
